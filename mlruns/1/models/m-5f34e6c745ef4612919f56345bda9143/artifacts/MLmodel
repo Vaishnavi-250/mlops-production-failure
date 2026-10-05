@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/vivin/OneDrive/Desktop/mlops production failures'/mlruns/1/models/m-5f34e6c745ef4612919f56345bda9143/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.15.1
+model_id: m-5f34e6c745ef4612919f56345bda9143
+model_size_bytes: 23932
+model_uuid: m-5f34e6c745ef4612919f56345bda9143
+prompts: null
+run_id: 9aba1a4542b242bf9d517e95a2a37927
+utc_time_created: '2026-10-05 14:22:41.270441'

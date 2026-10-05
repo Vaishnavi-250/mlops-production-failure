@@ -1,0 +1,10 @@
+services:
+  mlops-api:
+    build: .
+    container_name: mlops-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+      - ./models:/app/models
+    restart: unless-stopped
